@@ -9,6 +9,6 @@ query_name = input()
 a  =  student_marks[query_name]
 sum=0
 for  i  in  a:
-    sum+=i
-d=  sum/3
+    sum = sum + i
+d =  sum/3
 print('%.2f'%d)
