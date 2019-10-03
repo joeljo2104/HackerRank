@@ -8,3 +8,5 @@ else:
         print ('Weird')
     elif n >= 20:
         print ('Not Weird')
+    elif n>=20 and n<= 30:
+        print('weird but not weird')
