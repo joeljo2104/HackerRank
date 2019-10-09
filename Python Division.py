@@ -1,6 +1,2 @@
-a = int(input())
-b = int(input())
-print (a//b)
-result = float(a/b)
-print(result)
-
+a, b = int(input()), int(input())
+print (a//b, float(a/b), sep="\n")
